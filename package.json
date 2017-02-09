@@ -1,0 +1,16 @@
+{
+  "name": "fcc-url-shortener",
+  "version": "1.0.0",
+  "description": "Pass a URL as a parameter and receive a shortened URL in the JSON response.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mongoose": "^4.8.1",
+    "shortid": "^2.2.6",
+    "valid-url": "^1.0.9"
+  }
+}
