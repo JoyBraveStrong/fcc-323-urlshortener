@@ -3,7 +3,7 @@ var validUrl = require('valid-url');
 var Url = require('./models/url');
 
 // config
-var mongoUri = "mongodb://fcc-url-shortener:fcc-url-shortener@ds147079.mlab.com:47079/fcc-url-shortener";
+var mongoUri = process.env.MONGOLAB_URI;
 var port = process.env.PORT || 3000;
 var baseUrl = "https://fcc-323-urlshortener.herokuapp.com/";
 
